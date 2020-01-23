@@ -1,0 +1,11 @@
+---
+
+#progress: mostra apenas a progressão do teste
+#pretty: mostra tudo como a funcionalidade e os passos
+
+default: --profile progress -p homolog
+
+pretty: --format pretty
+progress: --format progress
+homolog: AMBIENTE=homolog
+producao: AMBIENTE=producao
