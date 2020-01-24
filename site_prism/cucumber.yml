@@ -1,11 +1,16 @@
 ---
 
-#progress: mostra apenas a progressão do teste
-#pretty: mostra tudo como a funcionalidade e os passos
-
-default: --profile progress -p homolog
+default: --profile progress -p homolog -p firefox
 
 pretty: --format pretty
 progress: --format progress
 homolog: AMBIENTE=homolog
 producao: AMBIENTE=producao
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+safari: BROWSER=safari
+ie: BROWSER=ie
+poltergeist: BROWSER=poltergeist      
+
+#progress: mostra apenas a progressão do teste
+#pretty: mostra tudo como a funcionalidade e os passos
